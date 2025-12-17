@@ -23,10 +23,10 @@ public class OopsConceptDemo {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	public String toString() {
-		return "OopsConcept[serialNum=" +serialNum +",name=" +name +",age=" +age+"]";
-	}
+
 
 	}
+
+	
 
 
