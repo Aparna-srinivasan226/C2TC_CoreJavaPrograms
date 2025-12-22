@@ -1,4 +1,4 @@
-package com.tns.oops.encapsulation;
+package com.tnsif.oops.encapsulation;
 
 public class OopsConceptDemo {
 
@@ -22,6 +22,9 @@ public class OopsConceptDemo {
 	}
 	public void setAge(int age) {
 		this.age = age;
+	}
+	public String toString() {
+		return"oopsConcept [serialNum="+serialNum +",name=" +name +",age="+age  +"]";
 	}
 
 
