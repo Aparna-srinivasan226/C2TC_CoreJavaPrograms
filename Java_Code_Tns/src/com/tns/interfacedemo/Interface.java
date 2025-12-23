@@ -1,17 +1,25 @@
 package com.tns.interfacedemo;
-interface aparna{
-	void display();
-	
+interface Shape{
+	 
+	 //declaration
+   void draw();
 }
 
-public class Interface {
-
-	 public static void main(String[] args) {
-	        aparna a = new aparna() {
-	            public void display() {
-	                System.out.println("Display method implemented");
-	            }
-	        };
-	        a.display();
-	    }
+public class Interface implements Shape{
+	
+	//implementation or explanation
+	public void draw() {
+		System.out.println("Drawing a circle in an interface");
 	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Interface id = new Interface();
+		id.draw();
+		
+
+		
+	}
+
+}

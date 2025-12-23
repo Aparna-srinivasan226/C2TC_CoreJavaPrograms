@@ -1,5 +1,8 @@
 package com.tns.interfacedemo;
 
-public class GreetingDemo {
+@FunctionalInterface
+public interface GreetingDemo {
+	 void greet(); //used for declaration
+	 //void greet1();
 
 }
