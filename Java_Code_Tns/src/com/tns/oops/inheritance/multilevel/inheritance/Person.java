@@ -1,8 +1,5 @@
 package com.tns.oops.inheritance.multilevel.inheritance;
 
-//Program to define base class Person
-
-
 import java.util.Date;
 
 public class Person {

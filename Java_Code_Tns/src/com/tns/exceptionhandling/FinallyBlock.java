@@ -1,7 +1,4 @@
 package com.tns.exceptionhandling;
-
-
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

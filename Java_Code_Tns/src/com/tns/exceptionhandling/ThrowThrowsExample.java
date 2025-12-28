@@ -1,7 +1,5 @@
 package com.tns.exceptionhandling;
 
-
-
 import java.util.Scanner;
 
 public class ThrowThrowsExample {
